@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="79">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df name="Compilerbau" root=".">
+      <in>common.h</in>
+      <in>main.c</in>
+      <in>prog.c</in>
+      <in>prog.h</in>
+      <in>slpl.c</in>
+      <in>slpl.h</in>
+      <in>table.c</in>
+      <in>table.h</in>
+      <in>utils.c</in>
+      <in>utils.h</in>
+    </df>
+    <logicalFolder name="Compilerbau" displayName="Compilerbau" projectFiles="true">
+      <itemPath>../../workspace/Compilerbau/main.c</itemPath>
+      <itemPath>../../workspace/Compilerbau/prog.c</itemPath>
+      <itemPath>../../workspace/Compilerbau/slpl.c</itemPath>
+      <itemPath>../../workspace/Compilerbau/slpl.h</itemPath>
+      <itemPath>../../workspace/Compilerbau/table.c</itemPath>
+      <itemPath>../../workspace/Compilerbau/table.h</itemPath>
+      <itemPath>../../workspace/Compilerbau/utils.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <remote-sources-mode>LOCAL_SOURCES</remote-sources-mode>
+        <compilerSet>default</compilerSet>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>../../workspace/Compilerbau</pElem>
+            </incDir>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="../../workspace/Compilerbau/utils.c" ex="false" tool="0" flavor="2">
+        <cTool>
+          <incDir>
+            <pElem>/usr/lib/gcc/x86_64-linux-gnu/4.4.3/include</pElem>
+          </incDir>
+        </cTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
